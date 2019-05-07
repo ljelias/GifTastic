@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+  }
+   
+body {
+    font-family: Arial, "Helvetica";
+    background: url(https://picsum.photos/id/1053/3596/2393);
+    width: 100%;
+    padding: 30px 20px 40px 20px;
+}
+
+#main-container {
+    width: 85%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#make-buttons {
+    height: 120px;
+    width: 30%;
+    background-color: rgb(255, 250, 247);
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 9px;
+}
+
+h4 {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 6px;
+}
+
+header {
+    height: 120px;
+    width: 70%;
+    font-family: 'Sofia', cursive;
+    text-align: center;
+    padding: 6px;
+    background-color: rgb(215, 231, 235);
+}
+
+header span {
+    font-size: 2.8rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 2rem;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+#button-area {
+    height: 780px;
+    width: 30%;
+    padding: 12px;
+    background-color: azure;
+    border-top: 1px solid gainsboro;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#button-area p {
+    font-size: 16px;
+}
+
+#show-gifs {
+    min-height: 780px;
+    width: 70%;
+    background-color: rgb(234, 234, 238);
+    padding: 12px;
+    text-align: center;
+}
+
+#show-buttons {
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button {
+    margin: 9px 3px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GifTastic</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="assets/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+</head>
+
+<body>
+  <div id="main-container">
+
+    <div id="make-buttons">
+      <form id="button-maker-form">
+        <label for="topic-input"><h4>Add your own topic button!</h4></label>
+        <input type="text" id="topic-input"><br>
+        <input id="add-topic" type="submit" value="Add a topic!">
+      </form>
+    </div>
+
+    <header>
+      <h2><span>GifTastic!&nbsp;</span> ~ ~ Fun Gifs</h2>
+    </header>
+
+    <div id="button-area">
+      <h3>Choose a topic<br>to see some gifs<h3>
+          <p>(or add your own in the box above)</p>
+          <div id="show-buttons"></div>
+    </div>
+
+    <div id="show-gifs"></div>
+
+  </div>
+
+  <script src="assets/script.js"></script>
+
+</body>
+
+</html>
