@@ -4,13 +4,13 @@
    
 body {
     font-family: Arial, "Helvetica";
-    background: url(https://picsum.photos/id/1053/3596/2393);
+    background: url(grassbackground1.jpg);
     width: 100%;
-    padding: 30px 20px 40px 20px;
+    padding: 10px 20px 40px 20px;
 }
 
 #main-container {
-    width: 85%;
+    width: 90%;
     margin: 10px auto;
     display: flex;
     flex-wrap: wrap;
@@ -18,66 +18,77 @@ body {
 }
 
 #make-buttons {
-    height: 120px;
-    width: 30%;
+    height: 132px;
+    width: 32%;
     background-color: rgb(255, 250, 247);
     font-size: 1.8rem;
     text-align: center;
     padding: 9px;
+    margin: 6px;
+    border-radius: 6px;
 }
 
 h4 {
     font-size: 20px;
     font-style: italic;
     text-align: center;
-    margin-top: 6px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
-header {
-    height: 120px;
-    width: 70%;
+#title-div {
+    height: 80px;
+    width: 96%;
     font-family: 'Sofia', cursive;
     text-align: center;
     padding: 6px;
     background-color: rgb(215, 231, 235);
+    margin: 6px;
+    border-radius: 6px;
 }
 
-header span {
-    font-size: 2.8rem;
+#title-div span {
+    font-size: 2.6rem;
     font-style: italic;
     font-weight: bold;
 }
 
-header h2 {
-    font-size: 2rem;
-    margin-top: 24px;
-    margin-bottom: 10px;
+#title-div h2 {
+    font-size: 1.8rem;
+    margin-top: 12px;
+    margin-bottom: 8px;
 }
 
 #button-area {
-    height: 780px;
-    width: 30%;
-    padding: 12px;
+    height: 132px;
+    width: 63%;
+    padding: 9px;
     background-color: azure;
-    border-top: 1px solid gainsboro;
+    margin: 6px;
+    border-radius: 6px;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 21px;
     text-align: center;
-    padding-top: 12px;
+    margin-top: 3px;
 }
 
 #button-area p {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #show-gifs {
     min-height: 780px;
-    width: 70%;
+    width: 96%;
     background-color: rgb(234, 234, 238);
-    padding: 12px;
-    text-align: center;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
 }
 
 #show-buttons {
@@ -88,5 +99,9 @@ h3 {
 }
 
 button {
-    margin: 9px 3px;
+    margin: 3px;
+}
+
+button:hover {
+    border: 1px solid whitesmoke;
 }
